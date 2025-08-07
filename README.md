@@ -66,5 +66,5 @@
 
 - الاسم: Abdulrahman Baggash
 - الإصدار: 1.0.0
-- التوافق: Blender 3.0 وما فوق
+- التوافق: Blender 4.0 وما فوق
 
