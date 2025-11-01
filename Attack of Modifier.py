@@ -78,7 +78,8 @@ def boolean_all(context):
     name = selected.name
     others = [obj for obj in bpy.context.selected_objects if obj != selected]
     for obj in others:
-        obj.hide_viewport = True
+        obj.hide_set(True)
+        # لجعل الكائن غير مرئي في منفذ العرض فقط (يبقى في المشهد)
         boolean(name, obj.name)
 
 # === MIRROR ===
